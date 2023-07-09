@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    font-family: Indie Flower;
+}
+img{
+    height:200px;
+    width:200px;
+}
+.container{
+    width:50%;
+    display:flex;
+    justify-content: space-around;
+}
+.head{
+    font-size: 100px;
+    display:flex;
+    justify-content: space-around;
+}
+.parent_con{
+    display:flex;
+    justify-content: space-around;
+}
+h3{
+    font-size: 50px;
+}
+button {
+    color: #000000;
+    background-color: #ffe082;
+    font-size: 40px;
+    border: 1px solid #030303;
+    border-radius: 14px;
+    padding: 8px 30px;
+    cursor: pointer
+}
+button:hover {
+    color: #050505;
+    background-color: #f3b06e;
+}
+.button_container{
+    display:flex;
+    justify-content: space-around;
+}
